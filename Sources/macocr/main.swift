@@ -47,6 +47,11 @@ func main(args: [String]) -> Int32 {
     request.recognitionLevel = MODE
     request.usesLanguageCorrection = USE_LANG_CORRECTION
     request.revision = REVISION
+
+    var recognitionLanguages = ["zh-Hans", "en-US"]
+    request.recognitionLanguages = recognitionLanguages
+       
+    
     //request.minimumTextHeight = 0
     //request.customWords = [String]
 
