@@ -2,6 +2,8 @@
 
 OCR command line utility for macOS 10.15+. Utilizes the [VNRecognizeTextRequest](https://developer.apple.com/documentation/vision/vnrecognizetextrequest) API.
 
+2023 Nov. Now support Chinese OCR
+
 ## Build and Run
 
 ```
